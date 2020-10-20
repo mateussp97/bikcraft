@@ -213,8 +213,23 @@ img {
   padding: 40px 0;
 }
 
+.quality::after {
+  width: 634px;
+  height: 83px;
+  display: block;
+  background: url("../img/linhas.svg") no-repeat center;
+  position: absolute;
+  z-index: -1;
+  top: 214px;
+  right: 162px;
+}
+
 .quality img {
   margin: 0 auto;
+}
+
+.quality-list {
+  padding-top: 30px;
 }
 
 .quality .call-to-action .btn {
