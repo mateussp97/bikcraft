@@ -1,0 +1,42 @@
+.introduction-about {
+  background: url("../img/bg-sobre.jpg") no-repeat center;
+}
+
+.missions {
+  padding-top: 40px;
+}
+
+.missions .grid-10 p {
+  font-size: 18px;
+  line-height: 25px;
+  padding-right: 60px;
+}
+
+.missions .grid-6 ul li {
+  font-size: 18px;
+  line-height: 35px;
+  font-family: Roboto Mono;
+}
+
+.missions .grid-16 img {
+  padding-top: 40px;
+}
+
+.subtitle-about {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.subtitle-about::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #000;
+  margin: 10px 0;
+}
