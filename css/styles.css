@@ -271,3 +271,37 @@ img {
   background-color: #000;
   margin: 5px auto;
 }
+
+/*Pre-Footer*/
+.pre-footer {
+  background: url("../img/bg-footer.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+  text-align: center;
+}
+
+.pre-footer .extern-quote {
+  padding-top: 40px;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.pre-footer .extern-quote p::before,
+.pre-footer .extern-quote p::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #fff;
+  margin: 15px auto 15px auto;
+}
+
+.pre-footer .extern-quote cite {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
