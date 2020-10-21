@@ -1,0 +1,30 @@
+.introduction-portfolio {
+  background: url("../img/bg-portfolio.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.quote-portfolio .extern-quote {
+  max-width: 360px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  color: #000;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.quote-portfolio .extern-quote p::before,
+.quote-portfolio .extern-quote p::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #000;
+  margin: 15px auto 15px auto;
+}
+
+.quote-portfolio .extern-quote cite {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
