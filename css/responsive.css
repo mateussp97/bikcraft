@@ -1,0 +1,175 @@
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  /*Header default for all*/
+  .header-menu ul li {
+    display: inline;
+  }
+
+  .header-menu ul {
+    margin-right: 25px;
+    margin-top: 25px;
+  }
+
+  /*Quality part from styless.css*/
+  .quality::after {
+    right: 66px;
+  }
+
+  .quality-list li {
+    padding: 0;
+  }
+
+  .quality-list li h3::after {
+    width: 0px;
+  }
+
+  /*Footer default for all*/
+  .footer .container div p {
+    max-width: 350px;
+  }
+
+  .footer .container div p,
+  .footer .container div ul {
+    font-size: 12px;
+  }
+
+  /*Products items from products.css*/
+  .products-item .grid-11 h2 {
+    top: -160px;
+  }
+
+  .products-item .grid-5 {
+    padding: 41px 0;
+  }
+
+  .products-item .products-info p {
+    font-size: 14px;
+    line-height: 20px;
+    height: 122px;
+    padding: 5px 10px;
+  }
+
+  .products-item .products-info ul li {
+    width: 181px;
+    padding-top: 16px;
+  }
+}
+
+@media only screen and (max-width: 787px) {
+  /*Introduction part from styles.css*/
+  .introduction,
+  .introduction-default {
+    margin-top: 0;
+    padding-top: 55px;
+  }
+
+  .introduction h1 {
+    font-size: 36px;
+  }
+
+  .introduction .extern-quote p::before,
+  .introduction .extern-quote p::after {
+    margin: 5px auto 5px auto;
+  }
+
+  /*Classes from styles.css*/
+  .products,
+  .portfolio,
+  .quality {
+    padding: 20px 0;
+  }
+
+  /*Subtitle from styles.css*/
+  .subtitle {
+    margin-bottom: 20px;
+  }
+
+  /*Header default for all*/
+  .header {
+    position: relative;
+    padding-bottom: 0;
+  }
+
+  .header img {
+    margin: 0 auto;
+  }
+
+  .header-menu {
+    text-align: center;
+  }
+
+  .header-menu ul {
+    padding-top: 10px;
+  }
+
+  .header-menu ul li {
+    margin: 5px;
+  }
+
+  .header-menu ul li .items-li {
+    padding: 10px;
+    border: 4px solid #000;
+    width: 130px;
+    display: block;
+    float: left;
+    transition: 0.3s;
+  }
+
+  .header-menu ul li .items-li:hover {
+    color: #fff;
+    border-color: #fff;
+  }
+
+  /*Footer from styles.css*/
+  footer .copyright p {
+    padding: 0;
+  }
+
+  /*Quality part from styless.css*/
+  .quality::after {
+    width: 0px;
+  }
+
+  .call-to-action {
+    padding: 20px 0;
+  }
+
+  /*Missions part from abouts.css*/
+  .missions .grid-16 img {
+    padding: 0px;
+  }
+
+  /*Products items from products.css*/
+  .products-item .grid-11 h2 {
+    top: -100px;
+    margin-bottom: -67px;
+  }
+
+  .products-item .grid-5 {
+    padding: 41px 0;
+  }
+
+  .products-item .products-info p {
+    font-size: 14px;
+    height: auto;
+    line-height: 20px;
+    padding: 5px 20px;
+  }
+
+  .products-item .products-info ul li {
+    font-size: 14px;
+    line-height: 20px;
+    width: 149px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  /*Budget part from products.css*/
+  #budget-form {
+    padding-right: 0px;
+  }
+
+  .budget-info ul li {
+    padding: 0px;
+  }
+}

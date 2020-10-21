@@ -168,6 +168,6 @@
 .budget-info ul li:nth-child(1),
 .budget-info ul li:nth-child(3),
 .budget-info ul li:nth-child(5) {
-  width: 269px;
+  width: 100%;
   background-color: #292929;
 }
