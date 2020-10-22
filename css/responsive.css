@@ -119,6 +119,10 @@
     border-color: #fff;
   }
 
+  .header-menu ul li .items-li.menu-active {
+    border-color: #fff;
+  }
+
   /*Footer from styles.css*/
   .footer .container div p {
     font-size: 12px;
