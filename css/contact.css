@@ -88,11 +88,11 @@
   margin-bottom: 20px;
 }
 
-ul {
+.social-icons ul {
   padding: 10px 0px;
 }
 
-ul li {
+.social-icons ul li {
   font-family: Roboto Mono;
 }
 
