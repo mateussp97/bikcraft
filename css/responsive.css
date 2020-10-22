@@ -120,6 +120,10 @@
   }
 
   /*Footer from styles.css*/
+  .footer .container div p {
+    font-size: 12px;
+  }
+
   footer .copyright p {
     padding: 0;
   }
