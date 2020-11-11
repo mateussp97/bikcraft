@@ -5,12 +5,19 @@
 # Web Design Completo
 
 ## About the project
+
 Project made from the design part to the programming part with a focus on front-end.
 
+## Project Link
+
+Access the project clicking [here]()
+
 ## Web Preview
+
 ![](./img/bikcraft.gif)
 
 ## Technology
+
 This is the web page, fully responsive for tablets and smartphones. The focus of this project was to know and apply all the basic knowledge of the main tools for front-end developers.
 It was fully developed with:
 
@@ -19,4 +26,5 @@ It was fully developed with:
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript)
 
 ## To run
+
 The Visual Studio Code [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension was used to open the project.

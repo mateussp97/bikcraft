@@ -403,6 +403,18 @@ footer .copyright p {
   padding: 20px 0;
 }
 
+footer .footer-link {
+  font-size: 1em;
+  margin-right: 5px;
+  color: black;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+footer .footer-link:hover {
+  text-decoration: underline;
+}
+
 /*JavaScript*/
 [data-slide] {
   position: relative;
